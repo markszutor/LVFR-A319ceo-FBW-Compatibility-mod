@@ -91,7 +91,7 @@ class A32NX_PayloadConstructor {
 const payloadConstruct = new A32NX_PayloadConstructor();
 const paxStations = payloadConstruct.paxStations;
 const cargoStations = payloadConstruct.cargoStations;
-const MAX_SEAT_AVAILABLE = 174;
+const MAX_SEAT_AVAILABLE = 178;
 
 /**
      * Calculate %MAC ZWFCG of all stations
