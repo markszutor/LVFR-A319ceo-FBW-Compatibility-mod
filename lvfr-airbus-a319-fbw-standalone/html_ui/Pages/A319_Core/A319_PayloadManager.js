@@ -9,7 +9,7 @@ class A32NX_PayloadConstructor {
                 paxTarget: 0,
                 stationIndex: 0 + 1,
                 position: 21.98,
-                seatsRange: [1, 36],
+                seatsRange: [1, 37],
                 simVar: "A32NX_PAX_TOTAL_ROWS_1_6"
             },
             rows7_13: {
@@ -20,7 +20,7 @@ class A32NX_PayloadConstructor {
                 paxTarget: 0,
                 stationIndex: 1 + 1,
                 position: 2.86,
-                seatsRange: [37, 78],
+                seatsRange: [38, 80],
                 simVar: "A32NX_PAX_TOTAL_ROWS_7_13"
             },
             rows14_21: {
@@ -31,18 +31,18 @@ class A32NX_PayloadConstructor {
                 paxTarget: 0,
                 stationIndex: 2 + 1,
                 position: -15.34,
-                seatsRange: [79, 126],
+                seatsRange: [81, 129],
                 simVar: "A32NX_PAX_TOTAL_ROWS_14_21"
             },
             rows22_29: {
-                name: 'ROWS [22-29]',
-                seats: 48,
-                weight: Math.round(NXUnits.kgToUser(4032)),
+                name: 'ROWS [22-26]',
+                seats: 30,
+                weight: Math.round(NXUnits.kgToUser(2520)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 3 + 1,
                 position: -32.81,
-                seatsRange: [127, 174],
+                seatsRange: [130, 160],
                 simVar: "A32NX_PAX_TOTAL_ROWS_22_29"
             },
         };
