@@ -24,25 +24,25 @@ class A32NX_PayloadConstructor {
                 simVar: "A32NX_PAX_TOTAL_ROWS_7_13"
             },
             rows14_21: {
-                name: 'ROWS [14-21]',
-                seats: 48,
-                weight: Math.round(NXUnits.kgToUser(4032)),
+                name: 'ROWS [14-20]',
+                seats: 42,
+                weight: Math.round(NXUnits.kgToUser(3530)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 2 + 1,
                 position: -15.34,
-                seatsRange: [81, 129],
+                seatsRange: [81, 123],
                 simVar: "A32NX_PAX_TOTAL_ROWS_14_21"
             },
             rows22_29: {
-                name: 'ROWS [22-26]',
-                seats: 30,
-                weight: Math.round(NXUnits.kgToUser(2520)),
+                name: 'ROWS [21-26]',
+                seats: 36,
+                weight: Math.round(NXUnits.kgToUser(3024)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 3 + 1,
                 position: -32.81,
-                seatsRange: [130, 160],
+                seatsRange: [124, 160],
                 simVar: "A32NX_PAX_TOTAL_ROWS_22_29"
             },
         };
