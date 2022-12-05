@@ -5406,14 +5406,19 @@
       "date": 133093071954720931
     },
     {
+      "path": "SimObjects/Airplanes/A319ceoIAE_acj/sound/Horizon_A319.PC.pck",
+      "size": 8102169,
+      "date": 133146314521666759
+    },
+    {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/sound/module.json",
       "size": 140,
       "date": 133093071954730940
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/sound/sound.xml",
-      "size": 176068,
-      "date": 133131118373364098
+      "size": 176627,
+      "date": 133146314521761836
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/texture/texture.CFG",
