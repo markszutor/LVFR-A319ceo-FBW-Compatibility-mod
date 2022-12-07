@@ -72,19 +72,19 @@
 		
    	 <EngineSoundStates>
 	  
-	<Sound WwiseData="true" WwiseEvent="IAEEngine_StarterL" EngineIndex="1" StateOff="false" StateStart="true" StateOn="true" > 
+	<Sound WwiseData="true" WwiseEvent="starterinsideR" EngineIndex="1" StateOff="false" StateStart="true" StateOn="true" > 
 	<WwiseRTPC SimVar="TURB ENG N2" Units="PERCENT" Index="1" RTPCName="SIMVAR_TURB_ENG_N2"/> 
     </Sound> 
 	
-	<Sound WwiseData="true" WwiseEvent="IAEEngine_StarterR" EngineIndex="2" StateOff="false" StateStart="true" StateOn="true" > 
+	<Sound WwiseData="true" WwiseEvent="starterinsideL" EngineIndex="2" StateOff="false" StateStart="true" StateOn="true" > 
 	<WwiseRTPC SimVar="TURB ENG N2" Units="PERCENT" Index="2" RTPCName="SIMVAR_TURB_ENG_N2"/> 
     </Sound> 	
 	
-	<Sound WwiseData="true" WwiseEvent="IAEEngine_StarterLX"  EngineIndex="1" StateOff="false" StateStart="true" StateOn="true"  ConeHeading="0" > 
+	<Sound WwiseData="true" WwiseEvent="starteroutside"  EngineIndex="1" StateOff="false" StateStart="true" StateOn="true"  ConeHeading="0" > 
 	<WwiseRTPC SimVar="TURB ENG N2" Units="PERCENT" Index="1" RTPCName="SIMVAR_TURB_ENG_N2"/> 
     </Sound> 
 	
-	<Sound WwiseData="true" WwiseEvent="IAEEngine_StarterRX" EngineIndex="2" StateOff="false" StateStart="true" StateOn="true"  ConeHeading="0" > 
+	<Sound WwiseData="true" WwiseEvent="starteroutside" EngineIndex="2" StateOff="false" StateStart="true" StateOn="true"  ConeHeading="0" > 
 	<WwiseRTPC SimVar="TURB ENG N2" Units="PERCENT" Index="2" RTPCName="SIMVAR_TURB_ENG_N2"/> 
     </Sound> 	
 
@@ -115,7 +115,7 @@
 <!-- SimvarSounds ========================================================================================== --> 
 
   <SimVarSounds>
-    	<Sound WwiseData="true" WwiseEvent="IAEEngine_ShutL" NodeName="WING_FLAP_01_LEFT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="1"> 
+    	<Sound WwiseData="true" WwiseEvent="stopinsideL" NodeName="WING_FLAP_01_LEFT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="1"> 
 	<Range UpperBound="18" />
 	<Requires SimVar="TURB ENG ITT" Units="RANKINE" Index="1" >
     <Range LowerBound="400" />
@@ -124,7 +124,7 @@
 	<WwiseRTPC SimVar="TURB ENG ITT" Units="RANKINE" Index="1" RTPCName="SIMVAR_TURB_ENG_ITT"/>
     </Sound>
 	  
-  	<Sound WwiseData="true" WwiseEvent="IAEEngine_ShutR" NodeName="WING_FLAP_01_RIGHT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="2"> 
+  	<Sound WwiseData="true" WwiseEvent="stopinsideR" NodeName="WING_FLAP_01_RIGHT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="2"> 
 	<Range  UpperBound="18" />
 	<Requires SimVar="TURB ENG ITT" Units="RANKINE" Index="2" >
     <Range LowerBound="400" />
@@ -135,7 +135,7 @@
 	
      <!-- Exterior Shutdown ================================================================================================= -->    
 
-  	<Sound WwiseData="true" WwiseEvent="IAEEngine_ShutLX" NodeName="WING_FLAP_01_LEFT" Continuous="false" ConeHeading="0"  SimVar="TURB ENG N1" Units="PERCENT" Index="1"> 
+  	<Sound WwiseData="true" WwiseEvent="stopoutside" NodeName="WING_FLAP_01_LEFT" Continuous="false" ConeHeading="0"  SimVar="TURB ENG N1" Units="PERCENT" Index="1"> 
 	<Range UpperBound="18" />
 	<Requires SimVar="TURB ENG ITT" Units="RANKINE" Index="1" >
     <Range LowerBound="400" />
@@ -144,7 +144,7 @@
 	<WwiseRTPC SimVar="TURB ENG ITT" Units="RANKINE" Index="1" RTPCName="SIMVAR_TURB_ENG_ITT"/>
     </Sound>
 	  
-  	<Sound WwiseData="true" WwiseEvent="IAEEngine_ShutRX" NodeName="WING_FLAP_01_RIGHT" Continuous="false" ConeHeading="0"  SimVar="TURB ENG N1" Units="PERCENT" Index="2"> 
+  	<Sound WwiseData="true" WwiseEvent="stopoutside" NodeName="WING_FLAP_01_RIGHT" Continuous="false" ConeHeading="0"  SimVar="TURB ENG N1" Units="PERCENT" Index="2"> 
 	<Range UpperBound="18" />
 	<Requires SimVar="TURB ENG ITT" Units="RANKINE" Index="2" >
     <Range LowerBound="400"  />
@@ -168,7 +168,7 @@
         </Sound>  		  		
      <!-- Interior Shutdown ================================================================================================= -->    
 
-  	<Sound WwiseData="true" WwiseEvent="IAEEngine_ShutL" NodeName="WING_FLAP_01_LEFT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="1"> 
+  	<Sound WwiseData="true" WwiseEvent="stopinsideL" NodeName="WING_FLAP_01_LEFT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="1"> 
 	<Range UpperBound="18" />
 	<Requires SimVar="TURB ENG ITT" Units="RANKINE" Index="1" >
     <Range LowerBound="400" />
@@ -177,7 +177,7 @@
 	<WwiseRTPC SimVar="TURB ENG ITT" Units="RANKINE" Index="1" RTPCName="SIMVAR_TURB_ENG_ITT"/>
     </Sound>
 	  
-  	<Sound WwiseData="true" WwiseEvent="IAEEngine_ShutR" NodeName="WING_FLAP_01_RIGHT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="2"> 
+  	<Sound WwiseData="true" WwiseEvent="StopinsideR" NodeName="WING_FLAP_01_RIGHT" Continuous="false"  SimVar="TURB ENG N1" Units="PERCENT" Index="2"> 
 	<Range  UpperBound="18" />
 	<Requires SimVar="TURB ENG ITT" Units="RANKINE" Index="2" >
     <Range LowerBound="400" />
