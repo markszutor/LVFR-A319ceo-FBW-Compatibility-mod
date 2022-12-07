@@ -1,6 +1,11 @@
 {
   "content": [
     {
+      "path": ".DS_Store",
+      "size": 6148,
+      "date": 133146314520731152
+    },
+    {
       "path": "build.py",
       "size": 2100,
       "date": 132521725365974524
@@ -937,8 +942,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A319ceoCFM/EFB/template.html",
-      "size": 5294138,
-      "date": 133139614927905214
+      "size": 5324041,
+      "date": 133147935040725964
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A319ceoCFM/EFB/template.js",
@@ -1192,8 +1197,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A319ceoIAE/EFB/template.html",
-      "size": 5294138,
-      "date": 133139663309698327
+      "size": 5324043,
+      "date": 133147934955241983
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A319ceoIAE/EFB/template.js",
@@ -2752,8 +2757,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM/cameras.cfg",
-      "size": 38787,
-      "date": 133119906452566809
+      "size": 36813,
+      "date": 133102005207449563
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM/Climb.flt",
@@ -2777,8 +2782,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM/engines.cfg",
-      "size": 12118,
-      "date": 133139610684519194
+      "size": 12241,
+      "date": 133146314520801223
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM/final.FLT",
@@ -3247,8 +3252,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM_acj/cameras.cfg",
-      "size": 38787,
-      "date": 133119906452566809
+      "size": 36811,
+      "date": 133095101547871982
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM_acj/Climb.flt",
@@ -3272,8 +3277,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM_acj/engines.cfg",
-      "size": 12118,
-      "date": 133139611411074451
+      "size": 12241,
+      "date": 133146314520811199
     },
     {
       "path": "SimObjects/Airplanes/A319ceoCFM_acj/final.FLT",
@@ -3607,8 +3612,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE/cameras.cfg",
-      "size": 38787,
-      "date": 133119906452566809
+      "size": 36813,
+      "date": 133102005439836046
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE/climb.flt",
@@ -4021,14 +4026,19 @@
       "date": 133093071954720931
     },
     {
+      "path": "SimObjects/Airplanes/A319ceoIAE/sound/Horizon_A319.PC.pck",
+      "size": 8102169,
+      "date": 133146314521666759
+    },
+    {
       "path": "SimObjects/Airplanes/A319ceoIAE/sound/module.json",
       "size": 140,
       "date": 133093071954730940
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE/sound/sound.xml",
-      "size": 176068,
-      "date": 133131118373364098
+      "size": 176627,
+      "date": 133146314521761836
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE/texture/A320NEO_COCKPIT_BACK01_ALBD.PNG.DDS",
@@ -5127,8 +5137,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/cameras.cfg",
-      "size": 38787,
-      "date": 133119906452566809
+      "size": 36811,
+      "date": 133095101661427495
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/Climb.flt",
@@ -5396,14 +5406,19 @@
       "date": 133093071954720931
     },
     {
+      "path": "SimObjects/Airplanes/A319ceoIAE_acj/sound/Horizon_A319.PC.pck",
+      "size": 8102169,
+      "date": 133146314521666759
+    },
+    {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/sound/module.json",
       "size": 140,
       "date": 133093071954730940
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/sound/sound.xml",
-      "size": 176068,
-      "date": 133131118373364098
+      "size": 176627,
+      "date": 133146314521761836
     },
     {
       "path": "SimObjects/Airplanes/A319ceoIAE_acj/texture/texture.CFG",
