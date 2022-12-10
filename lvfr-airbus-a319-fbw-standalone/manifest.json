@@ -1,10 +1,10 @@
 {
   "dependencies": [],
   "content_type": "AIRCRAFT",
-  "title": "lvfr-airbus-a319-fbw-standalone",
+  "title": "Horizon Simulations A319ceo",
   "manufacturer": "",
   "creator": "Horizon Simulations / MariuszK ",
-  "package_version": "0.6.1",
+  "package_version": "0.7.2",
   "minimum_game_version": "1.27.21",
   "release_notes": {
     "neutral": {
